@@ -22,7 +22,9 @@ jobs:
         node-version: '10.8.3'  # หรือเวอร์ชันที่คุณต้องการใช้
 
     - name: Install dependencies
-      run: npm install  # ใช้คำสั่งนี้หากคุณมีไฟล์ package.json
+      run: |
+        npm install
+        npm install sqlite3
 
     - name: Run API script
       run: node hotel_server.js  # รันไฟล์ api.js
