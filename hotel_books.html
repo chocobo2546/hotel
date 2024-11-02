@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hotel Sunshine</title>
+    <link rel="stylesheet" href="hotel_style.css">
+</head>
+<body class="lob-bg">
+    <header>
+        <nav class="topnav">
+            <a href="hotel_index.html">Home</a>
+	        <a href="hotel_contact.html">Contact</a>
+            <a href="https://www.google.co.th/maps/place/คณะวิทยาศาสตร์และเทคโนโลยี+มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี/@14.0387549,100.7267522,17.79z/data=!4m6!3m5!1s0x311d78a3cf303805:0x298cef6207b64026!8m2!3d14.0395596!4d100.7289406!16s%2Fg%2F12nvpzlcn?hl=th&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">Google Maps</a>
+        </nav>
+    </header>
+
+    <form action="/submit" method="post">
+        <label for="firstname">First Name :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="lastname">Last Name :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Phone">Phone number :</label>
+        <input type="tel" id="Phone" name="Phone" required>
+
+        <label for="birthday">Birthday :</label>
+        <input type="date" id="birthday" name="birthday" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="address">Address :</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="guests">Guests :</label>
+        <input type="number" id="guests" name="guests" minlength="0" required>
+
+        <label for="building">Building :</label>
+        <select name="building" id="building" required>
+            <option value="Riverside Inn">Riverside Inn</option>
+            <option value="Ocean View Tower">Ocean View Tower</option>
+            <option value="Sunset Villas">Sunset Villas</option>
+            <option value="Mountain Lodge">Mountain Lodge</option>
+            <option value="Valley Resort">Valley Resort</option>
+            <option value="Skyline Hotel">Skyline Hotel</option>
+            <option value="Urban Suites">Urban Suites</option>
+            <option value="Luxury Apartments">Luxury Apartments</option>
+            <option value="Eco Lodge">Eco Lodge</option>
+            <option value="City Center Tower">City Center Tower</option>
+        </select>
+
+        <label for="room_type">Room Type :</label>
+        <select name="room_type" id="room_type" required>
+            <option value="Single Room">Single Room</option>
+            <option value="Standard Room">Standard Room</option>
+            <option value="Double Room">Double Room</option>
+            <option value="Deluxe Room">Deluxe Room</option>
+            <option value="Family Room">Family Room</option>
+            <option value="Suite Room">Suite Room</option>
+            <option value="Studio Apartment">Studio Apartment</option>
+            <option value="Luxury Villa">Luxury Villa</option>
+            <option value="Penthouse Suite">Penthouse Suite</option>
+            <option value="Presidential Suite">Presidential Suite</option>
+        </select>
+
+        <label for="room">Room :</label>
+        <select name="room" id="room" required>
+            <option value="2100">2100</option>
+            <option value="2201">2201</option>
+            <option value="2302">2302</option>
+            <option value="2403">2403</option>
+            <option value="2504">2504</option>
+            <option value="2605">2605</option>
+            <option value="2706">2706</option>
+            <option value="2807">2807</option>
+            <option value="2908">2908</option>
+            <option value="2109">2109</option>
+        </select>
+
+        <label for="checkin">Check In :</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="checkout">Check Out :</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="time" required>
+        
+        <a href="#"><input type="submit" value="Submit"></a>
+    </form>
+</body>
+</html>

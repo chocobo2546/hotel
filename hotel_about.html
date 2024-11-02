@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQLite Example</title>
+    <link rel="stylesheet" href="hotel_style_server.css">
+</head>
+<body class="lob-bg">
+
+    <header>
+        <nav class="topnav">
+            <a href="hotel_index.html">Home</a>
+            <a href="hotel_books.html">Book Now</a>
+            <a href="hotel_contact.html">Contact</a>
+            <a href="https://www.google.co.th/maps/place/คณะวิทยาศาสตร์และเทคโนโลยี+มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี/@14.0387549,100.7267522,17.79z/data=!4m6!3m5!1s0x311d78a3cf303805:0x298cef6207b64026!8m2!3d14.0395596!4d100.7289406!16s%2Fg%2F12nvpzlcn?hl=th&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">Google Maps</a>
+        </nav>
+    </header>
+
+
+    <nav class="navbar">
+        <div>
+            <h2>Select Table</h2>
+            <select id="table-select">
+                <option value="books">books</option>
+                <option value="building">building</option>
+                <option value="customers">customers</option>
+                <option value="employees">employees</option>
+                <option value="extracharge">extracharge</option>
+                <option value="hotel">hotel</option>
+                <option value="payments">payments</option>
+                <option value="room_type">room_type</option>
+                <option value="rooms">rooms</option>
+            </select>
+            <button type="button" id="table" onclick="fetchData()">Show All table</button>
+        </div>
+    
+        <div>
+            <h2>Filter Data</h2>
+            <select id="column-select"></select>
+            <input type="text" id="value-input" placeholder="Enter value">
+            <button type="button" id="filter" onclick="fetchFilteredData()">Filter</button>
+        </div>
+    
+        <div class="menu" id="menu">
+            <h1>Question</h1>
+            <form id="quary-Q">
+                <button type="button" id="Q1" onclick="quaryQ1()">จำนวนลูกค้าต่อเดือน</button>
+                <button type="button" id="Q2" onclick="quaryQ2()">จำนวนลูกค้าต่อประเภทห้องพัก</button>
+                <button type="button" id="Q3" onclick="quaryQ3()">จำนวนลูกค้าตามช่วงอายุ</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="hide-data">
+        <button type="button" id="hide-table" onclick="toggleTable()">Hide Table</button>
+        <button type="button" id="hide-Q" onclick="toggleQ()">Hide Question</button>
+    </div>
+
+    <div class="show-data">
+        <table id="data-table">
+            <thead>
+                <tr id="table-header"></tr>
+            </thead>
+            <tbody id="data-body"></tbody>
+        </table>
+
+        <table id="data-Q">
+            <table id="list">
+                <tbody class="Q">
+        
+                </tbody>
+            </table>
+        </table>
+    </div>
+
+    <script src="hotel_script.js"></script>
+</body>
+
+</html>

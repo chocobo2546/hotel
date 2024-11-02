@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+
+.topnav {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: flex-end;
+    color: white;
+    overflow: hidden;
+}
+
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+  }
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.519);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.navbar select, .navbar input, .navbar button {
+    margin: 5px;
+    padding: 5px;
+}
+.navbar h2 {
+    color: white;
+    margin-right: 10px;
+}
+
+table {
+    margin: 0 0 40px 0;
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: #6c6c6cbf;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table thead th {
+    background-color: black;
+}
+
+table .Q tr:first-child {
+    background-color: black;
+}
+
+.hide-data{
+    display: flex;
+}
+
+button {
+    margin: 20px;
+    background-color: dimgray;
+    color: white;
+
+}
+
+.hide-data button {
+    padding: 5px;
+    border: black solid 2px;
+
+}
+
+.show-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lob-bg {
+    background: url(lob.png) no-repeat center fixed; 
+    background-size: cover;
+}
