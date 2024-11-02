@@ -19,7 +19,7 @@ jobs:
         node-version: '14' # หรือเวอร์ชันที่คุณต้องการ
 
     - name: Install dependencies
-      run: npm install
+      run: npm install express sqlite3
 
     - name: Run tests
       run: npm test
