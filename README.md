@@ -4,6 +4,6 @@ This is project for subject Modern Website Development & Database Systems
 
 ## Authors
 
-- P. Keowkom
-- P. Phetarwut
-- W. Karnsasom
+- Pattrawut Keowkom
+- Piyada Phetarwut
+- Warissara Karnsasom
