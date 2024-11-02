@@ -1,0 +1,42 @@
+\selectlanguage *[]{english}
+\contentsline {chapter}{\numberline {1}บทนำ}{6}{}%
+\contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{6}{}%
+\contentsline {section}{\numberline {1.2}วัตถุประสงค์}{9}{}%
+\contentsline {section}{\numberline {1.3}ประโยชน์ที่คาดว่าจะได้รับ}{9}{}%
+\contentsline {chapter}{\numberline {2}ความรู้ทั่วไป}{10}{}%
+\contentsline {section}{\numberline {2.1}การจัดแบ่งประเภทห้องพัก}{10}{}%
+\contentsline {section}{\numberline {2.2}ตัวอย่างห้องพัก}{10}{}%
+\contentsline {section}{\numberline {2.3}สิ่งอำนวยความสะดวกของห้องแต่ละประเภท}{15}{}%
+\contentsline {section}{\numberline {2.4}ปัจจัยการตั้งราคาขายห้องพักโรงแรม-ที่พัก}{16}{}%
+\contentsline {subsection}{\numberline {2.4.1}ต้นทุน}{16}{}%
+\contentsline {subsection}{\numberline {2.4.2}กำไรที่ต้องการ}{16}{}%
+\contentsline {subsection}{\numberline {2.4.3}ความต้องการ}{16}{}%
+\contentsline {subsection}{\numberline {2.4.4}ปัจจัยด้านฤดูกาล}{16}{}%
+\contentsline {subsection}{\numberline {2.4.5}ปัจจัยด้านสภาพเศรษฐกิจ}{16}{}%
+\contentsline {subsection}{\numberline {2.4.6}กลุ่มลูกค้า}{16}{}%
+\contentsline {subsection}{\numberline {2.4.7}คู่แข่ง}{16}{}%
+\contentsline {subsection}{\numberline {2.4.8}ตั้งราคาตามคุณค่าและความเป็นตัวตน}{17}{}%
+\contentsline {section}{\numberline {2.5}โรงแรมมีการเพิ่มราคาค่าห้องพักอย่างไร}{17}{}%
+\contentsline {subsection}{\numberline {2.5.1}ปัจจัยเทศกาล}{17}{}%
+\contentsline {chapter}{\numberline {3}ปัญหาและการแก้ปัญหาของระบบฐานข้อมูลที่กำหนด}{18}{}%
+\contentsline {section}{\numberline {3.1}ปัญหาของระบบฐานข้อมูล การแก้ปัญหาและผลลัพธ์ มีดังนี้}{19}{}%
+\contentsline {subsection}{\numberline {3.1.1}ปัญหาที่1 ลูกค้าเข้าพักช่วงเดือนไหนมากที่สุด}{19}{}%
+\contentsline {subsection}{\numberline {3.1.2}โค้ดในการแก้ปัญหา}{19}{}%
+\contentsline {subsection}{\numberline {3.1.3}ผลลัพธ์}{19}{}%
+\contentsline {subsection}{\numberline {3.1.4}ปัญหาที่2 ห้องประเภทไหนที่ลูกค้าเข้าพักมากที่สุด}{20}{}%
+\contentsline {subsection}{\numberline {3.1.5}โค้ดในการแก้ปัญหา}{20}{}%
+\contentsline {subsection}{\numberline {3.1.6}ผลลัพธ์}{20}{}%
+\contentsline {subsection}{\numberline {3.1.7}ปัญหาที่3 จำนวนลูกค้าอยู่ในช่วงอายุใดมากที่สุด}{21}{}%
+\contentsline {subsection}{\numberline {3.1.8}โค้ดในการแก้ปัญหา}{21}{}%
+\contentsline {subsection}{\numberline {3.1.9}ผลลัพธ์}{21}{}%
+\contentsline {chapter}{\numberline {4}การดำเนินการในส่วนของเว็บไซต์(Website)}{23}{}%
+\contentsline {section}{\numberline {4.1}$โค้ดhotel_about.index$}{23}{}%
+\contentsline {section}{\numberline {4.2}$โค้ดhotel_books.html$}{26}{}%
+\contentsline {section}{\numberline {4.3}$โค้ดhotel_contact.html$}{29}{}%
+\contentsline {section}{\numberline {4.4}$โค้ดhotel_index.html$}{30}{}%
+\contentsline {section}{\numberline {4.5}$โค้ดhotel_script.js$}{41}{}%
+\contentsline {section}{\numberline {4.6}$โค้ดhotel_server.js$}{46}{}%
+\contentsline {section}{\numberline {4.7}$โค้ดhotel_style.css$}{50}{}%
+\contentsline {section}{\numberline {4.8}$โค้ดhotel_style_server.css$}{58}{}%
+\contentsline {section}{\numberline {4.9}หน้าเว็บไซต์}{61}{}%
+\contentsline {chapter}{\numberline {5}บทสรุป}{64}{}%

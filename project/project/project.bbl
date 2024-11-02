@@ -1,0 +1,103 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{history}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=324bf5e126e317a81be0481ab6cfb909}{%
+           family={ธีมn},
+           familyi={ธี\bibinitperiod},
+           given={บริษัทนี้ดี\bibnamedelima จำกัด},
+           giveni={บ\bibinitperiod\bibinitdelim จำ\bibinitperiod}}}%
+      }
+      \strng{namehash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{fullhash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{fullhashraw}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{bibnamehash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{authorbibnamehash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{authornamehash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{authorfullhash}{324bf5e126e317a81be0481ab6cfb909}
+      \strng{authorfullhashraw}{324bf5e126e317a81be0481ab6cfb909}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ที่มาและความสำคัญของธุรกิจโรงแรม}
+      \field{year}{2017}
+      \verb{doi}
+      \verb https://kamonchanok01.blogspot.com/p/blog-page.html
+      \endverb
+    \endentry
+    \entry{his}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ac9ec15f7314c2332a6baf48024591dd}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Marlene},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{fullhash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{fullhashraw}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{bibnamehash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{authorbibnamehash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{authornamehash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{authorfullhash}{ac9ec15f7314c2332a6baf48024591dd}
+      \strng{authorfullhashraw}{ac9ec15f7314c2332a6baf48024591dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ความสำคัญของอุตสาหกรรมที่พักแรม}
+      \field{year}{2022}
+      \verb{doi}
+      \verb https://hotel-convencion.com/hotel/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%AA%E0%B8%B2%E0%B8%AB%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1/
+      \endverb
+    \endentry
+    \entry{price}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c32507388bb6e2c7412621b36b90273b}{%
+           family={ดอทคอม},
+           familyi={ด\bibinitperiod},
+           given={บจ.\bibnamedelimi เน็ตครีเอติค},
+           giveni={บ\bibinitperiod\bibinitdelim เ\bibinitperiod}}}%
+      }
+      \strng{namehash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{fullhash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{fullhashraw}{c32507388bb6e2c7412621b36b90273b}
+      \strng{bibnamehash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{authorbibnamehash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{authornamehash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{authorfullhash}{c32507388bb6e2c7412621b36b90273b}
+      \strng{authorfullhashraw}{c32507388bb6e2c7412621b36b90273b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{เทคนิคและตัวอย่างการตั้งราคาห้องพักโรงแรม}
+      \field{year}{2024}
+      \verb{doi}
+      \verb https://www.roomscope.com/blog/detail/55
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
