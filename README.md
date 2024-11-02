@@ -1,7 +1,9 @@
-# Hellow World
+# The Hotel Sunshine
 
-Meow meow ahhhhhh~~~~~~~~~~~
+This is project for subject Modern Website Development & Database Systems
 
 ## Authors
-- P. Ppadghagsjaul
-- D. faefaefa
+
+- P. Keowkom
+- P. Phetarwut
+- W. Karnsasom
