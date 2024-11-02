@@ -1,0 +1,29 @@
+name: Run Node.js API
+
+on:
+  push:
+    branches:
+      - main  # เปลี่ยนเป็นชื่อ branch ที่คุณต้องการ
+  pull_request:
+    branches:
+      - main  # เปลี่ยนเป็นชื่อ branch ที่คุณต้องการ
+
+jobs:
+  run-api:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '10.8.3'  # หรือเวอร์ชันที่คุณต้องการใช้
+
+    - name: Install dependencies
+      run: npm install  # ใช้คำสั่งนี้หากคุณมีไฟล์ package.json
+
+    - name: Run API script
+      run: node hotel_server.js  # รันไฟล์ api.js
+      
