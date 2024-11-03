@@ -125,5 +125,5 @@ app.get('/queryQ3', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'hotel_index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
