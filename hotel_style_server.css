@@ -3,17 +3,31 @@
     border: 0;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
 header {
     position: sticky;
     top: 0;
 }
 
 
-.topnav {
+header {
     display: flex;
+    flex: auto;
+    position: sticky;
+    top: 0;
     font-size: 20px;
     text-align: center;
     justify-content: flex-end;
+}
+
+
+.topnav {
+    display: flex;
     color: white;
     overflow: hidden;
 }
@@ -33,6 +47,7 @@ header {
     color: black;
     transition: background-color 0.3s;
   }
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.519);
