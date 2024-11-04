@@ -26,14 +26,18 @@ app.get('/table/:table_name', (req, res) => {
     }
 
     const column = req.query.column;
-    const value = req.query.value;
+    let value = req.query.value;
+
+    if (value) {
+        value = value.trim().replace(/\s+/g, ' ').toLowerCase();
+    }
 
     let query = `SELECT * FROM ${tableName}`;
     const params = [];
 
     if (column && value) {
-        query += ` WHERE ${column} = ?`;
-        params.push(value);
+        query += ` WHERE ${column} LIKE ?`;
+        params.push(`%${value}%`);
     }
 
     db.all(query, params, (err, rows) => {
