@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hotel-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: node hotel_server.js
+    envVars:
+      - key: PORT
+        value: 3000

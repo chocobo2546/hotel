@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/table/:path*", "destination": "https://hotel-backend.onrender.com/table/:path*" },
+    { "source": "/queryQ1", "destination": "https://hotel-backend.onrender.com/queryQ1" },
+    { "source": "/queryQ2", "destination": "https://hotel-backend.onrender.com/queryQ2" },
+    { "source": "/queryQ3", "destination": "https://hotel-backend.onrender.com/queryQ3" }
+  ]
+}
